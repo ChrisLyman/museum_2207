@@ -1,6 +1,8 @@
 class Exhibit
 
-  def initialize(info)
+  attr_reader :name
 
-  end 
+  def initialize(info)  
+    @name = info[:name]
+  end
 end
