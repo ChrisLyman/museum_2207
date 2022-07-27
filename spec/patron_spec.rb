@@ -37,10 +37,10 @@ RSpec.describe Patron do
     it 'has an array of interests' do
       patron_1 = Patron.new("Bob", 20)
 
-      patron_1.add_interests("Dead Sea Scrolls")
-      patron_1.add_interests("Gems and Minerals")
+      patron_1.add_interest("Dead Sea Scrolls")
+      patron_1.add_interest("Gems and Minerals")
 
-      expect(patron_1.interests).to eq(["Dead Sea Scrolls", "Gems and Minerals"])
-    end 
+      expect(patron_1.interest).to eq(["Dead Sea Scrolls", "Gems and Minerals"])
+    end
   end
 end

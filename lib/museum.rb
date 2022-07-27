@@ -7,4 +7,13 @@ class Museum
     @name = name
     @exhibits = []
   end
+
+  def add_exhibit(exhibit)
+    @exhibits << exhibit
+  end
+
+  def recommend_exhibits(patron)
+    
+require "pry"; binding.pry
+  end
 end
